@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "84b2",
+      "name": "Franka Ong",
+      "email": "frankaong@iticket.com",
+      "role": "admin",
+      "password": "123"
+    },
+    {
+      "id": "2822",
+      "name": "Sungchan Jung",
+      "email": "jsc@iticket.com",
+      "password": "123",
+      "role": "admin",
+      "preferences": {
+        "defaultView": "Open Tickets"
+      }
+    },
+    {
+      "id": "2713",
+      "name": "Anton Lee",
+      "email": "leeanton@iticket.com",
+      "password": "123",
+      "role": "user"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "7514",
+      "title": "Lost Keys",
+      "description": "I lost my keys to the office.",
+      "category": "General",
+      "priority": "Medium",
+      "attachment": "",
+      "assignedTo": "2713",
+      "dueDate": "2025-05-24",
+      "status": "Closed",
+      "createdAt": "2025-05-16T11:37:40.599Z",
+      "resolvedAt": null
+    },
+    {
+      "id": "e8ac",
+      "title": "Screen Crash",
+      "description": "My laptop is not responding anymore. Please help me.",
+      "category": "Billing",
+      "priority": "Medium",
+      "attachment": "",
+      "assignedTo": "84b2",
+      "dueDate": "2025-05-23",
+      "status": "Resolved",
+      "createdAt": "2025-05-16T11:55:02.971Z",
+      "resolvedAt": null
+    }
+  ],
+  "knowledgeBase": [
+  ],
+  "feedback": [
+  ]
+}
